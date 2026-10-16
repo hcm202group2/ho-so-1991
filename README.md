@@ -1,72 +1,51 @@
-# HỒ SƠ 1991 — DIRECTOR'S CUT 4.0
+# HỒ SƠ 1991 — CINEMATIC EDITION 6.0
 
-**Game thuyết trình tương tác | MLN131 — Chủ nghĩa xã hội khoa học**
+Website/game thuyết trình môn MLN131, dành **cho một người dẫn trên máy chiếu**. Không cần tài khoản, máy chủ, đăng nhập hay bảng điểm. **Chỉ 5 câu hỏi**: mỗi chương một câu, chỉ xuất hiện sau khi người dẫn trình bày xong phần kiến thức.
 
-Chủ đề: Nguyên nhân dẫn đến sự tan rã của Liên Xô và các nước xã hội chủ nghĩa Đông Âu.
+## Bản này sửa những gì?
 
-## Điểm khác biệt quan trọng
+- Ảnh → dòng ghi nguồn → ô **Trọng tâm** là **ba khu vực DOM độc lập** (không đặt chữ tuyệt đối lên ảnh). Điều này sửa lỗi chồng chữ xảy ra ở V5.
+- Chương 1 **đối chiếu hai giai đoạn** và sơ đồ cơ chế kinh tế.
+- Chương 2 **bản tin video DW News** (chỉ phát khi bấm), tiếp theo là **bàn phân tích ba tầng nguyên nhân chính trị**.
+- Chương 3 **trục thời gian 1985 – 1987/88 – 1990/91** có thể đổi mốc; kèm **tư liệu người dân kể về cải tổ trên PBS**.
+- Chương 4 **bản đồ có ba lớp thông tin** về chạy đua vũ trang, khoa học–công nghệ và kinh tế.
+- Chương 5 **sơ đồ mạng lưới nguyên nhân** (có thể tập trung vào từng yếu tố), rồi bàn cân tổng hợp.
+- Mỗi chương kết thúc bằng **đúng một câu hỏi phân tích**, chọn một lần → hiện giải thích. Năm chương có năm phong cách trình bày màn cuối riêng.
+- Có **album 2 ảnh/chương** (tư liệu Wikimedia Commons, tổng 10 mục ảnh; một số hình có thể tái sử dụng). Khi mạng yếu, có minh họa dự phòng để không trống hình.
 
-- **Một người điều khiển**: người thuyết trình bấm chuyển nội dung, lớp nghe giảng và chỉ tương tác khi được mời.
-- **5 chương, mỗi chương đúng 1 câu hỏi**: không có ghép nối, kéo thả, tính điểm, bảng xếp hạng hoặc bonus.
-- **Ba lớp kiến thức/chương**: nội dung hiện lần lượt theo nhịp thuyết trình.
-- **Một lần bấm chọn**: câu trả lời hiện ngay cùng lời giải, không bắt lớp thực hiện nhiều thao tác.
-- **Animation một lần**: chuyển cảnh, thanh tiến trình và dấu xác nhận; không có vật thể nhấp nháy lặp liên tục.
-- **Ảnh tư liệu có nguồn**: tải từ Wikimedia Commons khi có mạng; ảnh đồ họa dự phòng đã nhúng sẵn vào file HTML nếu mất mạng.
+## Đưa lên GitHub Pages
 
-## Cách chạy thử
+1. Giải nén file ZIP.
+2. Mở repository `hcm202group2/ho-so-1991`.
+3. Thay **`index.html` ở thư mục gốc** bằng file đi kèm, sau đó **Commit changes**.
+4. Đảm bảo **Settings → Pages → Deploy from a branch → main → /(root)**.
+5. Chờ GitHub Pages triển khai, mở `https://hcm202group2.github.io/ho-so-1991/`. Tải lại bằng **Ctrl+Shift+R** nếu còn cache.
 
-Mở `index.html` bằng Chrome hoặc Edge. Vì CSS, JavaScript và đồ họa dự phòng đã nhúng sẵn nên không cần cài gì, không cần Node.js, không cần Internet để dùng các tính năng chính.
-
-## Cập nhật repository GitHub của bạn
-
-Repository: `hcm202group2/ho-so-1991`
-
-1. Trên GitHub, mở repository → **Code** → **Add file** → **Upload files**.
-2. **Chỉ tải file `index.html` mới** trong ZIP này lên để ghi đè file cùng tên ở thư mục gốc. Sau đó nhấn **Commit changes**.
-3. Không cần tải `game.css`, `game.js` hay `assets` lên. Bản này không phụ thuộc các file cũ; bạn có thể xóa chúng sau khi đã xác nhận website chạy ổn.
-4. Nếu trước đó GitHub Pages đã bật, chờ trang được triển khai rồi mở `https://hcm202group2.github.io/ho-so-1991/`.
-5. Bấm **Ctrl + Shift + R** hoặc mở tab ẩn danh nếu trình duyệt vẫn lưu bản cũ.
-
-**Cách kiểm tra đúng bản mới:** góc dưới bên phải có dòng `DIRECTOR’S CUT · 4.0` và màn mở đầu có nút `MỞ HỒ SƠ ĐẦU TIÊN`.
-
-## Trình tự dẫn dắt 1 chương
-
-1. **Giới thiệu chương**: một câu bối cảnh, xem tư liệu minh họa.
-2. **Bằng chứng 01 → 02 → 03**: người thuyết trình trình bày từng luận điểm. Có thể đọc thêm ghi chú riêng bằng phím `N`.
-3. **Mở câu hỏi**: mời lớp phát biểu. Người thuyết trình chọn đúng **một** phương án tương ứng với câu trả lời muốn kiểm tra.
-4. **Giải mã lời giải**: lời giải và nhận định chính xuất hiện ngay. Chuyển sang chương kế tiếp.
+File `index.html` **đã nhúng CSS, JavaScript và đồ họa dự phòng**. Các file cũ như `app.js`, `style.css`, `styles.css` không còn được bản này sử dụng (có thể giữ hoặc xóa sau).
 
 ## Điều khiển
 
-| Thao tác | Chức năng |
-|---|---|
-| `Space` hoặc `→` | Tiếp tục / hiển thị bằng chứng tiếp theo |
-| `←` | Quay lại |
-| `1` đến `5` | Nhảy nhanh tới chương tương ứng |
-| `N` | Ghi chú của người thuyết trình |
-| `F` | Toàn màn hình |
-| `Esc` | Đóng cửa sổ hướng dẫn / ghi chú |
-| Nút `?` | Xem hướng dẫn |
+- `→` hoặc `Space`: chuyển cảnh (trừ khi đang ở câu hỏi chưa trả lời).
+- `←`: quay lại.
+- `1`–`5`: vào chương tương ứng.
+- `N`: ghi chú dành riêng cho người dẫn.
+- `F`: bật/tắt toàn màn hình.
+- `?`: hướng dẫn.
+- Chuột: bấm mốc thời gian, lớp bản đồ, nút tập trung nguyên nhân, mở album và mở video.
 
-**Đặc biệt:** Trong màn câu hỏi, `Space` *không* làm lộ đáp án. Phải bấm vào một phương án thì lời giải mới xuất hiện.
+Bạn điều khiển tất cả, cả lớp chỉ tương tác bằng cách trả lời khi mở câu hỏi cuối chương. Không có chấm điểm hoặc bonus.
 
-## Nội dung 5 chương
+## Video và Internet
 
-1. Hạn chế kinh tế kế hoạch hóa tập trung.
-2. Những hạn chế trong hệ thống chính trị và quản lý.
-3. Vấn đề và sai lầm trong quá trình cải tổ.
-4. Sức ép cạnh tranh từ môi trường quốc tế.
-5. Đánh giá tổng hợp: nhiều nguyên nhân tác động qua lại.
+- **DW News** (YouTube): *What happened the day the Berlin Wall fell?* — https://www.youtube.com/watch?v=qtsfHc5eZhI. Có nút phát ngay trong game và link mở nguồn. Video **không tự phát**.
+- **PBS POV**: *The Beginning of Perestroika* — https://www.pbs.org/video/pov-the-beginning-of-perestroika/. Mở trang gốc bằng một nút riêng; có thể cần Internet và chính sách xem video tại nơi học.
 
-Nội dung xây dựng từ phần 3.1–3.5 nhóm đã cung cấp. Đây là **phần bài giảng về nguyên nhân tan rã**, không thay thế toàn bộ bài thuyết trình về lý luận và thực tiễn của chủ nghĩa xã hội.
+Bạn nên tải trước các video hợp lệ hoặc kiểm tra kết nối mạng lớp học; bản này không tự tải/copy video có bản quyền vào mã nguồn. Có thể chỉ chiếu một đoạn phù hợp, không cần chiếu toàn video.
 
-## Thiết bị
+## Ghi chú kiến thức
 
-Đã thử các màn chính và luồng tương tác ở tỷ lệ máy chiếu 1280×720, 1440×900 và 1920×1080 trên Chromium. Ưu tiên dùng Chrome hoặc Edge trên máy tính và bật toàn màn hình (`F`). Có giao diện hẹp cho điện thoại, nhưng phương án sử dụng chính là **máy chiếu trên lớp**.
+Nội dung được chắt lọc từ mục 3.1–3.5 trong bài MLN131 người dùng cung cấp: cơ chế kinh tế, hệ thống chính trị, cải tổ, quốc tế và tương tác các nguyên nhân. Bản đồ/chỉ số minh họa **không phải số liệu lịch sử** và không khẳng định những phản thực lịch sử theo mô hình tính toán.
 
-## Lưu ý
+## Kết quả kiểm thử
 
-- Ảnh tư liệu bên ngoài cần Internet. Khi không tải được, đồ họa dự phòng vẫn hiển thị; câu chữ và các chức năng không phụ thuộc mạng.
-- Không có video phát tự động, tránh giật lag và mất tập trung; thay vào đó là các hiệu ứng chuyển cảnh **không lặp lại**.
-- Đây là trải nghiệm giáo dục, không phải mô phỏng khẳng định lịch sử tất yếu phải diễn ra theo một kịch bản duy nhất.
-- Nguồn hình và giấy phép: xem `SOURCES.md` và nút **Nguồn ảnh & tư liệu** trong game.
+Đã chạy kiểm thử tự động bằng Chromium thông qua Playwright ở 1280×720, 1366×768, 1920×1080. Lượt thử cả 22 cảnh không ghi nhận lỗi JS hay khối nội dung chính vượt viền. Đã kiểm tra album ảnh, trục thời gian, thay lớp bản đồ, chuyển focus mạng lưới, 5 câu hỏi và điều khiển modal. Cần kiểm tra thêm ảnh/video trực tuyến trên **mạng và máy dùng để thuyết trình**, vì môi trường kiểm thử có chặn truy cập nguồn ngoài.
